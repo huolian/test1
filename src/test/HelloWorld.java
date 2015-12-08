@@ -11,7 +11,7 @@ public class HelloWorld {
 		int j= i<<3;  //往左位移3位，相当于2的3次方
 		System.out.println(j);
 		int h=RSHash("abc");
-		System.out.println(h);//测试哈希函数
+		System.out.println(h);//测试哈希函数显示结果
 		System.out.println(RSHash("abcd"));
 		System.out.println(-2 & 0x7FFFFFFF);
 		System.out.println(-10 & 0x7FFFFFFF);
