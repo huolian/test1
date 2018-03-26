@@ -12,6 +12,7 @@ public class HelloWorld {
 		System.out.println(j);
 		int h=RSHash("abc");
 		System.out.println(h);//测试哈希函数显示结果
+		System.out.println(RSHash("abc"));
 		System.out.println(RSHash("abcd"));
 		System.out.println(-2 & 0x7FFFFFFF);
 		System.out.println(-10 & 0x7FFFFFFF);
